@@ -3,7 +3,6 @@
 #include<queue>
 #include<vector>
 #include<string>
-#include <conio.h>
 using namespace std;
 int N;
 //pair의 first엔 left,second엔 right 값을 저장할 vector node생성
@@ -68,5 +67,4 @@ int main(){
 	inorder(1);
 	printf("\n");
 	postorder(1);
-	_getch();
 }
